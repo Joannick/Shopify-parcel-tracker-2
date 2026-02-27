@@ -1,0 +1,14 @@
+{
+  "name": "shopify-parcel-tracker-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Parcelsapp tracking",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
